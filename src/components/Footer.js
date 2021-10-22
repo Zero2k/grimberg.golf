@@ -1,8 +1,10 @@
 import React from 'react';
-import tw from 'twin.macro';
-import styled from 'styled-components';
+import tw, { styled } from 'twin.macro';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import FacebookIcon from '@/icons/facebook-icon';
 import TwitterIcon from '@/icons/twitter-icon';
+import { menu } from '@/config/menu';
 
 const Container = tw.div`bg-gray-900 text-gray-100 -mb-8`;
 const Content = tw.div`max-w-7xl mx-auto py-20 lg:py-24`;
@@ -14,7 +16,7 @@ const LogoImg = tw.img`w-8`;
 const LogoText = tw.h5`ml-2 text-2xl font-black tracking-wider`;
 
 const LinksContainer = tw.div`mt-8 font-medium flex flex-wrap justify-center items-center flex-col sm:flex-row`;
-const Link = tw.a`text-lg border-b-2 border-transparent hocus:text-gray-300 hocus:border-gray-300 pb-1 transition duration-300 mt-2 mx-4`;
+const FooterLink = tw.a`text-lg border-b-2 border-transparent hocus:text-gray-300 hocus:border-gray-300 pb-1 transition duration-300 mt-2 mx-4`;
 
 const SocialLinksContainer = tw.div`mt-8`;
 const SocialLink = styled.a`
@@ -26,6 +28,8 @@ const SocialLink = styled.a`
 const CopyrightText = tw.p`text-center mt-8 font-medium tracking-wide text-sm text-gray-200`;
 
 export default function Footer() {
+  const router = useRouter();
+
   return (
     <Container>
       <Content>
@@ -35,12 +39,16 @@ export default function Footer() {
             <LogoText>Magnus Grimberg</LogoText>
           </LogoContainer>
           <LinksContainer>
-            <Link href="#">Startsida</Link>
-            <Link href="#">Golf</Link>
-            <Link href="#">RP</Link>
-            <Link href="#">Sponsorer</Link>
-            <Link href="#">Om sidan</Link>
-            <Link href="#">Kontakt</Link>
+            {menu[router.locale].map(item => (
+              <Link
+                key={item.name}
+                href={item.url}
+                locale={router.locale}
+                passHref
+              >
+                <FooterLink>{item.name}</FooterLink>
+              </Link>
+            ))}
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">

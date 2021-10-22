@@ -31,12 +31,12 @@ export default function Navbar() {
                 <a>
                   <span tw="sr-only">Workflow</span>
                   <img
-                    tw="block lg:hidden h-8 w-auto sm:h-10"
+                    tw="hidden md:block lg:hidden h-8 w-auto sm:h-10"
                     src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
                     alt="Workflow"
                   />
                   <img
-                    tw="hidden lg:block h-8 w-auto sm:h-10"
+                    tw="block md:hidden lg:block h-8 w-auto sm:h-10"
                     src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
                     alt="Workflow"
                   />
@@ -101,8 +101,8 @@ export default function Navbar() {
                 <Link
                   key={item.name}
                   href={item.url}
-                  passHref
                   locale={router.locale}
+                  passHref
                 >
                   <NavLink isActive={item.url === '/'} isMobile>
                     {item.name}
