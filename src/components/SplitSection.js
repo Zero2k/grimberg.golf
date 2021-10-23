@@ -28,7 +28,7 @@ export default function SplitSection() {
         </div>
 
         <div tw="w-full xl:w-1/2 overflow-hidden mt-6 xl:mt-0">
-          <div tw="grid grid-cols-2 gap-2">
+          <div tw="grid grid-cols-2 gap-3">
             {[1, 2, 3, 4, 5, 6].map(index => (
               <div key={index} tw="border h-auto rounded hover:bg-gray-100">
                 <img

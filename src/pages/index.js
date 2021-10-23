@@ -8,7 +8,7 @@ import SplitSection from '@/components/SplitSection';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
-const IndexPage = () => {
+const Index = () => {
   const { t } = useTranslation('common');
 
   return (
@@ -28,4 +28,4 @@ export const getStaticProps = async ({ locale }) => ({
   },
 });
 
-export default IndexPage;
+export default Index;

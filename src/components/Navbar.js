@@ -20,9 +20,9 @@ export default function Navbar() {
 
   return (
     <Popover>
-      <div tw="bg-gray-800 relative py-4 px-5 sm:px-6 lg:px-8">
+      <div tw="bg-gray-800 py-4 px-5 sm:px-6 lg:px-8">
         <nav
-          tw="max-w-7xl mx-auto relative flex items-center justify-between sm:h-14"
+          tw="max-w-7xl mx-auto flex items-center justify-between sm:h-14"
           aria-label="Meny"
         >
           <div tw="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
@@ -52,7 +52,9 @@ export default function Navbar() {
                 passHref
                 locale={router.locale}
               >
-                <NavLink isActive={item.url === '/'}>{item.name}</NavLink>
+                <NavLink isActive={item.url === router.asPath}>
+                  {item.name}
+                </NavLink>
               </Link>
             ))}
           </div>
@@ -104,7 +106,7 @@ export default function Navbar() {
                   locale={router.locale}
                   passHref
                 >
-                  <NavLink isActive={item.url === '/'} isMobile>
+                  <NavLink isActive={item.url === router.asPath} isMobile>
                     {item.name}
                   </NavLink>
                 </Link>
