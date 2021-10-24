@@ -5,19 +5,20 @@ import Section from '@/components/Section';
 import PageTitle from '@/components/PageTitle';
 
 const Card = styled.a(({ selected = false }) => [
-  tw`border h-auto rounded hover:bg-gray-100 cursor-pointer`,
+  tw`transition duration-300 border h-auto rounded hover:bg-gray-100 cursor-pointer`,
   selected && tw`bg-gray-100`,
 ]);
 
 export default function Sponsorer() {
   const [selected, setSelected] = React.useState(1);
+
   return (
     <React.Fragment>
       <Layout>
         <PageTitle />
         <Section>
           <div tw="w-full overflow-hidden mt-6 xl:mt-0">
-            <div tw="grid grid-cols-3 xl:grid-cols-4 gap-3">
+            <div tw="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
               {[1, 2, 3, 4, 5, 6].map(index => (
                 <Card
                   key={index}
@@ -32,13 +33,19 @@ export default function Sponsorer() {
               ))}
             </div>
           </div>
-          <div tw="my-10 shadow-2xl rounded">
-            <div tw="flex flex-col lg:flex-row lg:divide-x">
+          <div tw="mt-10 mb-5 shadow-2xl rounded border animate-fadeIn">
+            <div tw="flex flex-col lg:flex-row lg:divide-x-2">
               <div tw="w-full lg:w-2/3 p-5 lg:p-10">
                 <h2 tw="text-lg lg:text-xl font-medium pb-4">Företagsnamn</h2>
-                <p tw="pb-4 italic">Information</p>
+                <p tw="pb-4 italic">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
                 <a tw="text-indigo-600 hover:text-indigo-800" href="/">
-                  http://google.com
+                  http://sponsorlink.com
                 </a>
               </div>
               <div tw="w-full lg:w-1/3 p-5 lg:p-10 order-first lg:order-last">

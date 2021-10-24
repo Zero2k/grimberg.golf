@@ -16,7 +16,7 @@ module.exports = {
         secondaryHover: 'var(--text-secondary-hover)',
       },
       animation: {
-        fadeIn: 'fadeIn 2s ease-in forwards',
+        fadeIn: 'fadeIn 0.5s ease-in forwards',
       },
       keyframes: {
         fadeIn: {

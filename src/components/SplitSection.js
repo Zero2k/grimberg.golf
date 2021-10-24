@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import 'twin.macro';
 
 export default function SplitSection() {
@@ -17,12 +18,11 @@ export default function SplitSection() {
 
           <div tw="mt-6 sm:flex sm:justify-center lg:justify-start">
             <div>
-              <a
-                href="#"
-                tw="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-indigo-700 hover:bg-indigo-800"
-              >
-                View all
-              </a>
+              <Link href="/sponsorer" passHref>
+                <a tw="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-indigo-700 hover:bg-indigo-800">
+                  View all
+                </a>
+              </Link>
             </div>
           </div>
         </div>
