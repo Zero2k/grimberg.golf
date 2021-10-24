@@ -1,11 +1,12 @@
 import React from 'react';
 import Layout from '@/components/Layout';
+import PageTitle from '@/components/PageTitle';
 
 export default function Golf() {
   return (
     <React.Fragment>
       <Layout>
-        <h1>Golf</h1>
+        <PageTitle title="Golf" />
       </Layout>
     </React.Fragment>
   );

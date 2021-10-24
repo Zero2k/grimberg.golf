@@ -1,11 +1,12 @@
 import React from 'react';
 import Layout from '@/components/Layout';
+import PageTitle from '@/components/PageTitle';
 
 export default function OmSidan() {
   return (
     <React.Fragment>
       <Layout>
-        <h1>Om sidan</h1>
+        <PageTitle title="Om sidan" />
       </Layout>
     </React.Fragment>
   );

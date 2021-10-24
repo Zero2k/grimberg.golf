@@ -4,6 +4,8 @@ import Layout from '@/components/Layout';
 import Section from '@/components/Section';
 import PageTitle from '@/components/PageTitle';
 
+const data = [1, 2, 3, 4, 5, 6];
+
 const Card = styled.a(({ selected = false }) => [
   tw`transition duration-300 border h-auto rounded hover:bg-gray-100 cursor-pointer`,
   selected && tw`bg-gray-100`,
@@ -15,15 +17,15 @@ export default function Sponsorer() {
   return (
     <React.Fragment>
       <Layout>
-        <PageTitle />
+        <PageTitle title="Sponsorer" />
         <Section>
           <div tw="w-full overflow-hidden mt-6 xl:mt-0">
             <div tw="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
-              {[1, 2, 3, 4, 5, 6].map(index => (
+              {data.map(item => (
                 <Card
-                  key={index}
-                  selected={selected === index}
-                  onClick={() => setSelected(index)}
+                  key={item}
+                  selected={selected === item}
+                  onClick={() => setSelected(item)}
                 >
                   <img
                     tw="p-8"
