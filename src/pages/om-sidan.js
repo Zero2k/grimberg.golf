@@ -46,8 +46,8 @@ export default function OmSidan() {
                 classical literature, discovered the undoubtable source.
               </p>
             </div>
-            <div tw="">
-              <figure tw="max-w-4xl mx-auto md:flex bg-gray-100 rounded p-8 md:p-0 shadow-lg">
+            <div tw="max-w-5xl mx-auto">
+              <figure tw="md:flex bg-gray-100 rounded p-8 md:p-0 shadow-lg">
                 <img
                   tw="w-32 h-32 md:w-48 md:h-auto rounded-full md:(rounded-l rounded-r-none) mx-auto"
                   src="https://images.squarespace-cdn.com/content/v1/5b59baa289c172304acb6993/1631085446050-DPPJRJGU3UFX5C5LIEQT/blank-profile-picture.png"
