@@ -3,7 +3,7 @@ import 'twin.macro';
 
 export default function Header({ title }) {
   return (
-    <div tw="relative bg-white overflow-hidden">
+    <div tw="relative bg-white overflow-hidden px-5 sm:px-6 lg:px-8">
       <div tw="max-w-7xl mx-auto">
         <div tw="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
@@ -16,7 +16,7 @@ export default function Header({ title }) {
             <polygon points="50,0 100,0 50,100 0,100" />
           </svg>
 
-          <main tw="py-10 mx-auto max-w-7xl px-4 sm:pt-12 sm:px-6 md:pt-16 lg:pt-20 lg:px-8 xl:pt-28">
+          <main tw="py-10 mx-auto max-w-7xl sm:pt-12 md:pt-16 lg:pt-20 xl:pt-28">
             <div tw="sm:text-center lg:text-left">
               <h1 tw="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span tw="block xl:inline">{title.part1}</span>{' '}

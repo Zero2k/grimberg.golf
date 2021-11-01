@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function ImageGrid() {
   return (
-    <div tw="max-w-7xl mx-auto px-20 mt-20 mb-40">
+    <div tw="max-w-7xl mx-auto px-16 xl:px-12 mt-20 mb-40">
       <div tw="flex justify-center">
         <h3 tw="font-bold text-4xl pb-10 xl:pb-20">Text</h3>
       </div>
