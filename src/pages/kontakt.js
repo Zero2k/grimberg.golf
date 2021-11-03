@@ -136,7 +136,7 @@ export default function Kontakt() {
 
                   <button
                     type="submit"
-                    tw="w-full bg-indigo-700 text-white font-semibold py-3 px-6 rounded-full mt-4 hover:bg-indigo-800 disabled:opacity-80"
+                    tw="w-full bg-indigo-700 text-white font-semibold py-3 px-6 rounded-full mt-4 hover:bg-indigo-800 disabled:(opacity-80 cursor-not-allowed)"
                     disabled
                   >
                     Skicka

@@ -7,9 +7,9 @@ export default function TimeLine() {
       <div tw="container mx-auto flex flex-col items-start xl:flex-row gap-8">
         <div tw="flex flex-col w-full sticky xl:top-36 xl:w-1/3 mt-2 md:mt-12">
           <p tw="text-primary uppercase tracking-wide">Upcoming games</p>
-          <p tw="font-medium text-4xl leading-normal md:leading-relaxed mb-2">
+          <h3 tw="font-medium text-4xl leading-normal md:leading-relaxed mb-2">
             My Schedule for 2021
-          </p>
+          </h3>
           <p tw="text-gray-700 text-base md:text-xl mb-4">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
