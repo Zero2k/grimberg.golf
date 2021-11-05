@@ -35,8 +35,9 @@ export default function Rp() {
             </div>
           }
           right={
-            <div tw="w-full xl:w-1/2 overflow-hidden mt-6 xl:mt-0">
+            <div tw="flex w-full xl:w-1/2 overflow-hidden mt-6 xl:mt-0 justify-center self-center">
               {/* <Image src="" layout="responsive" width={500} height={300} /> */}
+              <div tw="">Image</div>
             </div>
           }
         />
