@@ -5,7 +5,7 @@ export default function TimeLine() {
   return (
     <div>
       <div tw="container mx-auto flex flex-col items-start xl:flex-row gap-8">
-        <div tw="flex flex-col w-full sticky xl:top-36 xl:w-1/3 mt-2 md:mt-12">
+        <div tw="flex flex-col w-full sticky xl:top-36 xl:w-1/3 mt-2">
           <p tw="text-primary uppercase tracking-wide">Upcoming games</p>
           <h3 tw="font-medium text-4xl leading-normal md:leading-relaxed mb-2">
             My Schedule for 2021
@@ -18,7 +18,7 @@ export default function TimeLine() {
         </div>
         <div tw="ml-0 xl:ml-12 w-full xl:w-2/3 sticky">
           <div tw="container mx-auto w-full h-full">
-            <div tw="relative flex-wrap overflow-hidden p-10 h-full">
+            <div tw="relative flex-wrap overflow-hidden px-10 h-full">
               <div
                 tw="border-2 border-indigo-700 absolute h-full border"
                 style={{
@@ -115,7 +115,7 @@ export default function TimeLine() {
               </div> */}
             </div>
             <img
-              tw="mx-auto -mt-14 md:-mt-14"
+              tw="mx-auto -mt-8"
               src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png"
             />
           </div>

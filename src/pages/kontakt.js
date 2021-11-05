@@ -10,7 +10,7 @@ export default function Kontakt() {
       <Layout>
         <PageTitle title="Kontakt" />
         <Section>
-          <div tw="max-w-5xl mx-auto">
+          <div tw="max-w-5xl mx-auto shadow-lg">
             <div tw="overflow-hidden">
               <div tw="grid grid-cols-1 md:grid-cols-2 bg-gray-50 rounded space-x-0 lg:space-x-2">
                 <div tw="p-6 lg:p-10 bg-gray-100 rounded">
