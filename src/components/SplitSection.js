@@ -1,16 +1,21 @@
 import React from 'react';
-import 'twin.macro';
+import tw, { styled } from 'twin.macro';
 
-export default function SplitSection({ left, right }) {
+const Row = styled.div(({ reverse = false }) => [
+  tw`flex flex-wrap overflow-hidden`,
+  reverse && tw`flex-row-reverse`,
+]);
+
+export default function SplitSection({ left, right, reverse }) {
   return (
     <div tw="px-5 sm:px-6 lg:px-8">
-      <div tw="mx-auto max-w-7xl my-12 md:my-16 lg:my-20">
-        <div tw="flex flex-wrap overflow-hidden">
+      <div tw="mx-auto max-w-7xl my-5 xl:my-10">
+        <Row reverse={reverse}>
           {/* Left section */}
           {left}
           {/* Right section */}
           {right}
-        </div>
+        </Row>
       </div>
     </div>
   );

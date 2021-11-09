@@ -114,10 +114,6 @@ export default function TimeLine() {
                 </div>
               </div> */}
             </div>
-            <img
-              tw="mx-auto -mt-8"
-              src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png"
-            />
           </div>
         </div>
       </div>

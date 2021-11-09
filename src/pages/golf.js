@@ -67,7 +67,7 @@ export default function Golf() {
             <div tw="flex w-full lg:w-1/2 justify-center self-center">
               <div tw="p-5">
                 <img
-                  tw="rounded-full w-[450px] h-[450px]"
+                  tw="rounded-full w-[350px] h-[350px] md:w-[450px] md:h-[450px]"
                   src="https://cdn.pixabay.com/photo/2018/09/18/09/30/golf-3685616_960_720.jpg"
                 />
               </div>
