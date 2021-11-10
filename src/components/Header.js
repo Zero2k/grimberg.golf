@@ -1,5 +1,6 @@
 import 'react';
 import 'twin.macro';
+import Link from 'next/link';
 
 export default function Header({ title }) {
   return (
@@ -29,20 +30,18 @@ export default function Header({ title }) {
               </p>
               <div tw="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div>
-                  <a
-                    href="#"
-                    tw="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-indigo-700 hover:bg-indigo-800 md:py-4 md:text-lg md:px-10"
-                  >
-                    Get started
-                  </a>
+                  <Link href="/golf" passHref>
+                    <a tw="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-indigo-700 hover:bg-indigo-800 md:py-4 md:text-lg md:px-10">
+                      Golf med synskada
+                    </a>
+                  </Link>
                 </div>
                 <div tw="mt-3 sm:mt-0 sm:ml-3">
-                  <a
-                    href="#"
-                    tw="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-black bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
-                  >
-                    Live demo
-                  </a>
+                  <Link href="/retinitis-pigmentosa" passHref>
+                    <a tw="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-black bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
+                      Vad är RP?
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>

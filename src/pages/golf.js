@@ -4,12 +4,14 @@ import Layout from '@/components/Layout';
 import PageTitle from '@/components/PageTitle';
 import TimeLine from '@/components/TimeLine';
 import Section from '@/components/Section';
+import Results from '@/components/Results';
 
 export default function Golf() {
   return (
     <React.Fragment>
       <Layout>
         <PageTitle title="Golf" />
+        {/* Introduction */}
         <Section>
           <h2 tw="font-medium text-4xl leading-normal md:leading-relaxed mb-2">
             Att spela paragolf med en synskada
@@ -25,9 +27,11 @@ export default function Golf() {
             därefter ledsaga mig fram till bollen och nästa slag.
           </p>
         </Section>
+        {/* Timeline */}
         <Section>
           <TimeLine />
         </Section>
+        {/* Gear */}
         <Section>
           <div tw="flex flex-col lg:flex-row space-x-4">
             <div tw="w-full lg:w-1/2">
@@ -73,6 +77,13 @@ export default function Golf() {
               </div>
             </div>
           </div>
+        </Section>
+        {/* Achievements */}
+        <Section>
+          <h3 tw="font-medium text-3xl leading-normal md:leading-relaxed mb-4">
+            Prestationer
+          </h3>
+          <Results />
         </Section>
       </Layout>
     </React.Fragment>

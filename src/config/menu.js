@@ -5,7 +5,7 @@ export const menu = {
       url: '/',
     },
     { name: 'Golf', url: '/golf' },
-    { name: 'RP', url: '/rp' },
+    { name: 'RP', url: '/retinitis-pigmentosa' },
     { name: 'Sponsorer', url: '/sponsorer' },
     { name: 'Om sidan', url: '/om-sidan' },
     { name: 'Kontakt', url: '/kontakt' },
