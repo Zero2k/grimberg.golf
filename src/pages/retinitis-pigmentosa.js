@@ -41,12 +41,36 @@ export default function Rp() {
             </div>
           }
         />
+
         <SplitSection
           reverse
           left={
             <div tw="w-full lg:w-1/2 overflow-hidden self-center text-left">
               <h3 tw="font-medium text-4xl leading-normal md:leading-relaxed mb-2">
                 Hjälpmedel
+              </h3>
+              <p tw="text-gray-700 text-base md:text-xl w-full lg:w-5/6">
+                Text
+              </p>
+
+              <div tw="mt-6 sm:flex sm:justify-center lg:justify-start">
+                <div></div>
+              </div>
+            </div>
+          }
+          right={
+            <div tw="flex w-full lg:w-1/2 overflow-hidden mt-6 xl:mt-0 justify-center self-center">
+              {/* <Image src="" layout="responsive" width={500} height={300} /> */}
+              <div tw="">Image</div>
+            </div>
+          }
+        />
+
+        <SplitSection
+          left={
+            <div tw="w-full lg:w-1/2 overflow-hidden self-center text-left">
+              <h3 tw="font-medium text-4xl leading-normal md:leading-relaxed mb-2">
+                Text
               </h3>
               <p tw="text-gray-700 text-base md:text-xl w-full lg:w-5/6">
                 Text
