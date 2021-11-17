@@ -6,14 +6,14 @@ export default function TimeLine() {
     <div>
       <div tw="container mx-auto flex flex-col items-start xl:flex-row gap-8">
         <div tw="flex flex-col w-full sticky xl:top-36 xl:w-1/3 mt-2">
-          <p tw="text-primary uppercase tracking-wide">Upcoming games</p>
+          <p tw="text-primary uppercase tracking-wide">Tävlingar</p>
           <h3 tw="font-medium text-4xl leading-normal md:leading-relaxed mb-2">
-            My Schedule for 2021
+            Planer inför 2012
           </h3>
           <p tw="text-gray-700 text-base md:text-xl mb-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s.
+            Här hittar du några av de tidigare tävlingar där jag har medverkat.
+            Du kan också se vilka tävlingar som jag planerar att spel det
+            kommande året.
           </p>
         </div>
         <div tw="ml-0 xl:ml-12 w-full xl:w-2/3 sticky">

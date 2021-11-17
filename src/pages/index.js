@@ -8,6 +8,7 @@ import SplitSection from '@/components/SplitSection';
 
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import Faq from '@/components/Faq';
 
 const Index = () => {
   const { t } = useTranslation('common');
@@ -55,6 +56,7 @@ const Index = () => {
           }
         />
         <ImageGrid />
+        <Faq />
       </Layout>
     </React.Fragment>
   );
