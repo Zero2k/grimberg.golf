@@ -2,7 +2,7 @@ import 'react';
 import 'twin.macro';
 import Link from 'next/link';
 
-export default function Header({ title }) {
+export default function Header({ header }) {
   return (
     <div tw="relative bg-white overflow-hidden px-5 sm:px-6 lg:px-8">
       <div tw="max-w-7xl mx-auto">
@@ -20,8 +20,10 @@ export default function Header({ title }) {
           <main tw="py-10 mx-auto max-w-7xl sm:pt-12 md:pt-16 lg:pt-20 xl:pt-28">
             <div tw="sm:text-center lg:text-left">
               <h1 tw="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span tw="block xl:inline">{title.part1}</span>{' '}
-                <span tw="block text-primary xl:inline">{title.part2}</span>
+                <span tw="block xl:inline">{header.headerTitle.part1}</span>{' '}
+                <span tw="block text-primary xl:inline">
+                  {header.headerTitle.part2}
+                </span>
               </h1>
               <p tw="mt-3 text-base text-gray-700 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui

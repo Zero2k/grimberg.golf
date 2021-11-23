@@ -1,7 +1,17 @@
 {
-  "header-title": {
-    "part1": "Half of golf is fun,",
-    "part2": "the other half is putting. (EN)"
+  "header": {
+    "headerTitle": {
+      "part1": "Half of golf is fun,",
+      "part2": "the other half is putting. (EN)"
+    },
+    "headerText": "",
+    "headerBtnColor": "",
+    "headerBtnLight": ""
   },
-  "change-locale": "Change locale"
+  "change-locale": "Change locale",
+  "sponsors": {
+    "sponsorsTitle": "Sponsored by some amazing companies",
+    "sponsorsText": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+    "sponsorsBtn": "My sponsors"
+  }
 }

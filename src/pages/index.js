@@ -16,24 +16,22 @@ const Index = () => {
   return (
     <React.Fragment>
       <Layout>
-        <Header title={t('header-title', { returnObjects: true })} />
+        <Header header={t('header', { returnObjects: true })} />
         <SplitSection
           left={
             <div tw="w-full xl:w-1/2 overflow-hidden self-center md:text-center lg:text-left">
-              <h3 tw="font-medium text-4xl pb-4">
-                Sponsored by some amazing companies
+              <h3 tw="font-medium text-4xl tracking-wide pb-4">
+                {t('sponsors', { returnObjects: true }).sponsorsTitle}
               </h3>
               <p tw="text-gray-700 italic text-base md:text-xl w-full lg:w-5/6">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
+                {t('sponsors', { returnObjects: true }).sponsorsText}
               </p>
 
               <div tw="mt-6 sm:flex sm:justify-center lg:justify-start">
                 <div>
                   <Link href="/sponsorer" passHref>
                     <a tw="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-indigo-700 hover:bg-indigo-800">
-                      View all
+                      {t('sponsors', { returnObjects: true }).sponsorsBtn}
                     </a>
                   </Link>
                 </div>

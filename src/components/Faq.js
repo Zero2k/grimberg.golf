@@ -3,10 +3,11 @@ import tw, { styled } from 'twin.macro';
 import { motion } from 'framer-motion';
 import { ChevronDownIcon } from '@heroicons/react/outline';
 import Section from './Section';
+import { faqs } from '@/config/faqs';
 
 const PrimaryBackgroundContainer = tw.div`relative text-gray-900`;
 const Subheading = tw.h3`font-bold text-purple-500 mb-4 text-center`;
-const Heading = tw.h2`text-4xl font-bold tracking-wide text-center w-full`;
+const Heading = tw.h2`font-medium text-4xl text-center w-full`;
 const Description = tw.p`mt-4 text-lg font-medium leading-relaxed text-gray-800 max-w-3xl text-center mx-auto`;
 
 const HeaderContent = tw.div``;
@@ -26,40 +27,8 @@ const Answer = tw(motion.p)`hidden text-base font-normal mt-4 text-gray-800`;
 
 export default function Faq({
   subheading = '',
-  title = 'Frequently Asked Questions',
+  title = 'Vanliga frågor & svar',
   description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  faqs = [
-    {
-      question: 'Is lunch provided free of cost ?',
-      answer:
-        'Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system.',
-    },
-    {
-      question: 'Do you have 2 Bedroom suites ?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    },
-    {
-      question: 'Are Wi-Fi costs included in the price ?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    },
-    {
-      question: 'Where can I reach you for support ?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    },
-    {
-      question: 'What kind of SLA Guarantee do you provide ? ',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    },
-    {
-      question: 'Where are the servers located ?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    },
-  ],
 }) {
   const faqCol1 = [];
   const faqCol2 = [];

@@ -6,7 +6,9 @@ export default function ImageGrid() {
   return (
     <div tw="max-w-7xl mx-auto px-16 xl:px-12 mt-10 mb-40">
       <div tw="flex justify-center">
-        <h3 tw="font-bold text-4xl pb-10 xl:pb-20">Text</h3>
+        <h3 tw="font-medium text-4xl pb-10 xl:pb-20">
+          Bilder från tävlingar där jag har medverkat
+        </h3>
       </div>
       <div tw="grid grid-flow-col grid-rows-2 grid-cols-3 gap-4">
         <div tw="transform scale-110 -rotate-6 -translate-x-5">
