@@ -16,9 +16,9 @@ export const menu = {
       url: '/',
     },
     { name: 'Golf', url: '/golf' },
-    { name: 'RP', url: '/rp' },
+    { name: 'RP', url: '/retinitis-pigmentosa' },
     { name: 'Sponsors', url: '/sponsorer' },
-    { name: 'About', url: '/about' },
-    { name: 'Contact', url: '/contact' },
+    { name: 'About', url: '/om-sidan' },
+    { name: 'Contact', url: '/kontakt' },
   ],
 };

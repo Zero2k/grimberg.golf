@@ -13,7 +13,7 @@ export default function Golf() {
         <PageTitle title="Golf" />
         {/* Introduction */}
         <Section>
-          <h2 tw="font-medium text-4xl leading-normal md:leading-relaxed mb-2">
+          <h2 tw="font-medium text-4xl leading-normal mb-2">
             Att spela paragolf med en synskada
           </h2>
           <p tw="text-base text-gray-700 md:text-lg">
@@ -35,9 +35,7 @@ export default function Golf() {
         <Section>
           <div tw="flex flex-col lg:flex-row space-x-4">
             <div tw="w-full lg:w-1/2">
-              <h2 tw="font-medium text-4xl leading-normal md:leading-relaxed mb-4">
-                Utrustning
-              </h2>
+              <h2 tw="font-medium text-4xl leading-normal mb-4">Utrustning</h2>
               <dl>
                 <div tw="bg-gray-100 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                   <dt tw="text-base font-medium text-gray-700">Bollar</dt>
@@ -80,9 +78,7 @@ export default function Golf() {
         </Section>
         {/* Achievements */}
         <Section>
-          <h3 tw="font-medium text-3xl leading-normal md:leading-relaxed mb-4">
-            Prestationer
-          </h3>
+          <h3 tw="font-medium text-3xl leading-normal mb-4">Prestationer</h3>
           <Results />
         </Section>
       </Layout>

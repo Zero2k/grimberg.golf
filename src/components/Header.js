@@ -26,22 +26,20 @@ export default function Header({ header }) {
                 </span>
               </h1>
               <p tw="mt-3 text-base text-gray-700 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
+                {header.headerText}
               </p>
               <div tw="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div>
                   <Link href="/golf" passHref>
                     <a tw="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-indigo-700 hover:bg-indigo-800 md:py-4 md:text-lg md:px-10">
-                      Golf med synskada
+                      {header.headerBtnColor}
                     </a>
                   </Link>
                 </div>
                 <div tw="mt-3 sm:mt-0 sm:ml-3">
                   <Link href="/retinitis-pigmentosa" passHref>
                     <a tw="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-black bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
-                      Vad är RP?
+                      {header.headerBtnLight}
                     </a>
                   </Link>
                 </div>
