@@ -21,7 +21,7 @@ export default function OmSidan() {
         <PageTitle title="Om sidan" />
         <Section>
           <div tw="w-full">
-            <div tw="pb-10">
+            <div>
               <h2 tw="text-xl font-medium pb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -45,37 +45,6 @@ export default function OmSidan() {
                 Ipsum passage, and going through the cites of the word in
                 classical literature, discovered the undoubtable source.
               </p>
-            </div>
-            <div tw="max-w-5xl mx-auto">
-              <figure tw="md:flex bg-gray-100 rounded p-8 md:p-0 shadow-lg">
-                <img
-                  tw="w-32 h-32 md:w-48 md:h-auto rounded-full md:(rounded-l rounded-r-none) mx-auto"
-                  src="https://images.squarespace-cdn.com/content/v1/5b59baa289c172304acb6993/1631085446050-DPPJRJGU3UFX5C5LIEQT/blank-profile-picture.png"
-                  alt=""
-                  width="384"
-                  height="512"
-                />
-                <div tw="pt-6 md:p-8 text-center md:text-left space-y-4">
-                  <blockquote>
-                    <p tw="text-lg font-semibold">
-                      “Tailwind CSS is the only framework that I've seen scale
-                      on large teams. It’s easy to customize, adapts to any
-                      design, and the build size is tiny.”
-                    </p>
-                  </blockquote>
-                  <figcaption tw="font-medium">
-                    <div tw="text-gray-600">Magnus Grimberg</div>
-                    <SocialLinksContainer>
-                      <SocialLink href="https://facebook.com">
-                        <FacebookIcon />
-                      </SocialLink>
-                      <SocialLink href="https://twitter.com">
-                        <TwitterIcon />
-                      </SocialLink>
-                    </SocialLinksContainer>
-                  </figcaption>
-                </div>
-              </figure>
             </div>
           </div>
         </Section>

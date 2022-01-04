@@ -93,55 +93,6 @@ export default function Kontakt() {
                     </div>
                   </div>
                 </div>
-
-                <form tw="p-6 lg:p-10 flex flex-col justify-center">
-                  <div tw="flex flex-col">
-                    <label htmlFor="name" tw="hidden">
-                      Namn
-                    </label>
-                    <input
-                      type="name"
-                      name="name"
-                      id="name"
-                      placeholder="Namn"
-                      tw="mt-2 py-3 px-3 rounded bg-white border border-gray-400 text-gray-800 font-medium focus:border-indigo-500 focus:outline-none"
-                    />
-                  </div>
-
-                  <div tw="flex flex-col mt-2">
-                    <label htmlFor="email" tw="hidden">
-                      E-post
-                    </label>
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="E-post"
-                      tw="mt-2 py-3 px-3 rounded bg-white border border-gray-400 text-gray-800 font-medium focus:border-indigo-500 focus:outline-none"
-                    />
-                  </div>
-
-                  <div tw="flex flex-col mt-2">
-                    <label htmlFor="tel" tw="hidden">
-                      Text
-                    </label>
-                    <textarea
-                      name="text"
-                      rows="3"
-                      id="text"
-                      placeholder="Text"
-                      tw="mt-2 py-3 px-3 rounded bg-white border border-gray-400 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
-                    />
-                  </div>
-
-                  <button
-                    type="submit"
-                    tw="w-full bg-indigo-700 text-white font-semibold py-3 px-6 rounded-full mt-4 hover:bg-indigo-800 disabled:(opacity-80 cursor-not-allowed)"
-                    disabled
-                  >
-                    Skicka
-                  </button>
-                </form>
               </div>
             </div>
           </div>

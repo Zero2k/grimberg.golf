@@ -12,6 +12,7 @@ export default function Results() {
       date: '2021-XX-XX',
     },
   ];
+
   return (
     <div tw="flex flex-col">
       <div tw="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
