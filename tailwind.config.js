@@ -8,7 +8,12 @@ module.exports = {
       fill: {
         current: 'currentColor',
       },
-      backgroundColor: {},
+      backgroundColor: {
+        primary: 'var(--bg-primary)',
+        primaryHover: 'var(--bg-primary-hover)',
+        secondary: 'var(--bg-secondary)',
+        secondaryHover: 'var(--bg-secondary-hover)',
+      },
       textColor: {
         primary: 'var(--text-primary)',
         primaryHover: 'var(--text-primary-hover)',

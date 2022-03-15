@@ -20,18 +20,18 @@ export default function TimeLine() {
           <div tw="container mx-auto w-full h-full">
             <div tw="relative flex-wrap overflow-hidden px-10 h-full">
               <div
-                tw="border-2 border-indigo-700 absolute h-full border"
+                tw="border-2 border-blue-500 absolute h-full border"
                 style={{
                   right: '50%',
-                  border: '2px solid #4338ca',
+                  border: '2px solid #3b82f6',
                   borderRadius: '1%',
                 }}
               ></div>
               <div
-                tw="border-2 border-indigo-700 absolute h-full border"
+                tw="border-2 border-blue-500 absolute h-full border"
                 style={{
                   left: '50%',
-                  border: '2px solid #4338ca',
+                  border: '2px solid #3b82f6',
                   borderRadius: '1%',
                 }}
               ></div>
