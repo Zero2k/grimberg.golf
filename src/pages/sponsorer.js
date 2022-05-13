@@ -25,7 +25,7 @@ export default function Sponsorer() {
       >
         <div tw="flex flex-col lg:flex-row lg:divide-x-2">
           <div tw="w-full lg:w-2/3 p-5 lg:p-10">
-            <h2 tw="text-lg lg:text-xl font-medium pb-4">
+            <h2 tw="text-lg lg:text-xl font-bold pb-4">
               Företagsnamn {sponsor}
             </h2>
             <p tw="pb-4 italic">

@@ -1,10 +1,12 @@
 import React from 'react';
-import 'twin.macro';
+import tw from 'twin.macro';
 import Layout from '@/components/Layout';
 import PageTitle from '@/components/PageTitle';
 import TimeLine from '@/components/TimeLine';
 import Section from '@/components/Section';
 import Results from '@/components/Results';
+
+const Heading = tw.h2`font-bold text-4xl leading-normal mb-4`;
 
 export default function Golf() {
   return (
@@ -13,9 +15,7 @@ export default function Golf() {
         <PageTitle title="Golf" />
         {/* Introduction */}
         <Section>
-          <h2 tw="font-medium text-4xl leading-normal mb-2">
-            Att spela paragolf med en synskada
-          </h2>
+          <Heading>Att spela paragolf med en synskada</Heading>
           <p tw="text-base text-gray-700 md:text-lg">
             Allt spel sker med caddie tillika ledsagare. Caddieuppdrag:
             tillsammans med mig välja klubba och därigenom spelstrategi, ställa
@@ -35,7 +35,7 @@ export default function Golf() {
         <Section>
           <div tw="flex flex-col lg:flex-row space-x-4">
             <div tw="w-full lg:w-1/2">
-              <h2 tw="font-medium text-4xl leading-normal mb-4">Utrustning</h2>
+              <Heading>Utrustning</Heading>
               <dl>
                 <div tw="bg-gray-100 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                   <dt tw="text-base font-medium text-gray-700">Bollar</dt>
@@ -78,7 +78,7 @@ export default function Golf() {
         </Section>
         {/* Achievements */}
         <Section>
-          <h3 tw="font-medium text-3xl leading-normal mb-4">Prestationer</h3>
+          <Heading>Prestationer</Heading>
           <Results />
         </Section>
       </Layout>

@@ -7,7 +7,7 @@ import { faqs } from '@/config/faqs';
 
 const PrimaryBackgroundContainer = tw.div`relative text-gray-900`;
 const Subheading = tw.h3`font-bold text-purple-500 mb-4 text-center`;
-const Heading = tw.h2`font-medium text-4xl text-center w-full`;
+const Heading = tw.h2`font-bold text-4xl text-center w-full`;
 const Description = tw.p`mt-4 text-lg font-medium leading-relaxed text-gray-800 max-w-3xl text-center mx-auto`;
 
 const HeaderContent = tw.div``;

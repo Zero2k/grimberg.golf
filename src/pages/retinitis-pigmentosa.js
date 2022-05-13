@@ -1,9 +1,11 @@
 import React from 'react';
-import 'twin.macro';
+import tw from 'twin.macro';
 import Image from 'next/image';
 import Layout from '@/components/Layout';
 import PageTitle from '@/components/PageTitle';
 import SplitSection from '@/components/SplitSection';
+
+const Heading = tw.h2`font-bold text-4xl leading-normal mb-4`;
 
 export default function Rp() {
   return (
@@ -13,9 +15,7 @@ export default function Rp() {
         <SplitSection
           left={
             <div tw="w-full lg:w-1/2 overflow-hidden self-center text-left">
-              <h3 tw="font-medium text-4xl leading-normal md:leading-relaxed mb-2">
-                Min ögonsjukdom
-              </h3>
+              <Heading>Min ögonsjukdom</Heading>
               <p tw="text-gray-700 text-base md:text-xl w-full lg:w-5/6">
                 RP (Retinitis Pigmentosa) är ett samlingsnamn för hundratals
                 olika ärftliga ögonsjukdomar. Gemensamt för dessa sjukdomar är
@@ -46,9 +46,7 @@ export default function Rp() {
           reverse
           left={
             <div tw="w-full lg:w-1/2 overflow-hidden self-center text-left">
-              <h3 tw="font-medium text-4xl leading-normal md:leading-relaxed mb-2">
-                Hjälpmedel
-              </h3>
+              <Heading>Hjälpmedel</Heading>
               <p tw="text-gray-700 text-base md:text-xl w-full lg:w-5/6">
                 Text
               </p>
@@ -69,9 +67,7 @@ export default function Rp() {
         <SplitSection
           left={
             <div tw="w-full lg:w-1/2 overflow-hidden self-center text-left">
-              <h3 tw="font-medium text-4xl leading-normal md:leading-relaxed mb-2">
-                Text
-              </h3>
+              <Heading>Text</Heading>
               <p tw="text-gray-700 text-base md:text-xl w-full lg:w-5/6">
                 Text
               </p>

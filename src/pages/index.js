@@ -20,7 +20,7 @@ const Index = () => {
         <SplitSection
           left={
             <div tw="w-full xl:w-1/2 overflow-hidden self-center md:text-center lg:text-left">
-              <h3 tw="font-medium text-4xl tracking-wide pb-4">
+              <h3 tw="font-bold text-4xl tracking-wide pb-4">
                 {t('sponsors', { returnObjects: true }).sponsorsTitle}
               </h3>
               <p tw="text-gray-700 italic text-base md:text-xl w-full lg:w-5/6">
