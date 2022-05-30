@@ -14,12 +14,9 @@ export default function Kontakt() {
             <div tw="overflow-hidden">
               <div tw="grid grid-cols-1 md:grid-cols-2 bg-gray-50 rounded space-x-0 lg:space-x-2">
                 <div tw="p-6 lg:p-10 bg-gray-100 rounded">
-                  <h1 tw="text-4xl sm:text-5xl text-gray-800 font-extrabold tracking-tight">
-                    Get in touch
+                  <h1 tw="text-4xl text-gray-800 font-extrabold tracking-tight">
+                    Behöver du kontakta mig?
                   </h1>
-                  <p tw="text-lg sm:text-2xl font-medium text-gray-600 mt-2">
-                    Fill in the form to start a conversation
-                  </p>
 
                   <div tw="flex items-center mt-8 text-gray-600">
                     <svg
@@ -44,8 +41,8 @@ export default function Kontakt() {
                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg>
-                    <div tw="ml-4 tracking-wide font-medium w-40">
-                      Acme Inc, Street, State, Postal Code
+                    <div tw="ml-4 tracking-wide font-medium w-52">
+                      Mossvägen 3, SE-30571, Haverdal. Sverige
                     </div>
                   </div>
 
@@ -67,7 +64,7 @@ export default function Kontakt() {
                       />
                     </svg>
                     <div tw="ml-4 tracking-wide font-medium w-40">
-                      +44 1234567890
+                      +46 (0) 76 94 11 403
                     </div>
                   </div>
 
@@ -89,7 +86,7 @@ export default function Kontakt() {
                       />
                     </svg>
                     <div tw="ml-4 tracking-wide font-medium w-40">
-                      info@acme.org
+                      magnus.grimberg@gmail.com
                     </div>
                   </div>
                 </div>

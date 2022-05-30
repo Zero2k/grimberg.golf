@@ -50,8 +50,8 @@ export default function Header({ header }) {
       </div>
       <div tw="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
-          tw="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80"
+          tw="h-56 w-full object-cover object-[50% 25%] sm:h-80 md:h-96 lg:w-full lg:h-full"
+          src="https://ucb9b3a4d44f35c2d4feb1000702.previews.dropboxusercontent.com/p/thumb/ABj8fpvgTv-58-KKzVJb2cxgj4VruDmrWO1sBqhhIqYG98DCUAuwe_545AmLWEhGaTa06HQKS_MrPv9hkczlYtupADrG3wVpOCxXZagCn1VBq__J0omGkfXZPWIILWWdxs_-HLW2H2fHD_z0_YPGtBXGg6dVyHuvxO_QLtuj5wKWV-9fafKa4d_8tzVowedxvyS0wYErXMq1OgbG_RtKHayZsYWiQ4XKJf-aHyBAOyTJR51fX4MSVdvz3SlF8OQA39aDfNDEvHb_DA2yVB82MEAqTSv6GV8L55o0YxrAQkdkFdXkXb7MrfcVN7ltmFjWfuyx4tPDMxrGUtuU-J3BznSV7Veh2dtddwIFw6UUukCsIODPJyYT8zBR5pX2EnzzL0A/p.jpeg"
           alt=""
         />
       </div>

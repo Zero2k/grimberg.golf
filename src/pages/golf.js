@@ -66,13 +66,11 @@ export default function Golf() {
                 </div>
               </dl>
             </div>
-            <div tw="flex w-full lg:w-1/2 justify-center self-center">
-              <div tw="p-5">
-                <img
-                  tw="rounded-full w-[350px] h-[350px] md:w-[450px] md:h-[450px]"
-                  src="https://cdn.pixabay.com/photo/2018/09/18/09/30/golf-3685616_960_720.jpg"
-                />
-              </div>
+            <div tw="flex w-full lg:w-1/2 items-center">
+              <img
+                tw="object-cover h-96 w-96 rounded-full mx-auto"
+                src="https://uc78e144ac24655a6e0219f67eb6.previews.dropboxusercontent.com/p/thumb/ABjLdpccmGCXqTbRclqKHc9UW7bJBefnU1j46QACpA9kJLrfBcGGaNc-TuvaIFywABNtS2nrv9x5W8xSaKQCEREMk_Kc3FuLb0Nen2816P1nwdmMl3vnrInpN5C4BsnCgUekIezaJQ9tAp-__PsRF3iWGoinEOssVIfm3Bz5Du-SCBZrqsgdaAY8Ws0Vf5tkgYuGqEtRrxlUH3UJ6V7-xrOajyoPBqXJXPLGsr6s9qqpnQu3Lr1CrVf-xqDru4LOMSeDctakjWo0KJAiDPxqxlEYsA7IQC-u0d_8GAiy56Vqq5QA6leJMscHg9ZWDRLcx0YZIQgr-_bFPN43sn19Na2kXmL70kNyEdJkDCJD6dEYwdI4MX1vAGlG5anaTix_ya2NPjeW_-I8uSPCnn-AuTEx6XIC02duT2TOnAknhz99978PyHj1QpUx1rWDHO1s_d4CObJCiDNZVe7ZJ6Ks80BCqh-ERNuxIdzsSbaYKEZLhSozglrFbqhxcwa2sAIsoRU/p.jpeg"
+              />
             </div>
           </div>
         </Section>

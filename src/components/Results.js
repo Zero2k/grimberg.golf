@@ -11,6 +11,14 @@ export default function Results() {
       placement: '4',
       date: '2021-XX-XX',
     },
+    {
+      name: 'Henrik Stenson',
+      tour: 'Paragolf Challenge Barsebäck G & CC',
+      course: 'Barsebäck Golf & Sports Club',
+      county: 'Skåne',
+      placement: '1',
+      date: '2020-07-02',
+    },
   ];
 
   return (
